@@ -1,0 +1,40 @@
+/* Figma-inspired global styles (update color/font values after extraction) */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: #f7f8fa;
+  color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  margin: 0 0 0.5em 0;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  padding: 0.7rem 2rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Utility classes */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add more styles as you extract from Figma */ 
