@@ -24,7 +24,7 @@ export default function DataCollector() {
       handPoseDetection.SupportedModels.MediaPipeHands,
       { runtime: 'tfjs', modelType: 'lite' }
     ).then(setHandModel);
-  }, []);
+  }, []); 
 
   // Fetch image counts from backend
   const fetchCounts = async () => {
