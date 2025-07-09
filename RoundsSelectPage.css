@@ -1,0 +1,143 @@
+.rounds-bg {
+  min-height: 100vh;
+  background: #54B6FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  box-sizing: border-box;
+  border: 2px solid #1A8EDB;
+}
+.settings-btn {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  width: 182px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.settings-icon-img {
+  width: 182px;
+  height: 50px;
+  display: block;
+  margin: 0;
+}
+.rounds-title {
+  font-family: 'Nunito', 'Fredoka', 'Inter', Arial, sans-serif;
+  font-size: 4.2rem;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 1em;
+}
+.rounds-selector-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8em;
+  margin-bottom: 1em;
+}
+/* .rounds-arrow {
+  width: 56px;
+  height: 56px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #6E2CF5 0%, #B84FFF 100%);
+  color: #fff;
+  font-size: 2.7rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s, box-shadow 0.2s;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.rounds-arrow:disabled {
+  background: #B6B6B6;
+  color: #e0e0e0;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+.rounds-number-svg-box {
+  position: relative;
+  width: 230px;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rounds-number-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.rounds-number-svg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Fredoka', 'Inter', Arial, sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+  color: #6E2CF5;
+  text-align: center;
+  z-index: 1;
+  pointer-events: none;
+}
+.rounds-start-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.rounds-start-btn {
+  font-family: 'Fredoka', 'Inter', Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(90deg, #6EE2F5 0%, #6454F0 50%, #B84FFF 100%, #FF4F9A 100%);
+  border: none;
+  border-radius: 16px;
+  padding: 0.7em 3em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  outline: none;
+  margin: 0 0.5em;
+  letter-spacing: 1px;
+}
+.rounds-start-btn:disabled {
+  background: #B6B6B6;
+  color: #e0e0e0;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+.rounds-start-btn img {
+  width: 170px !important;
+  height: 85px !important;
+  display: block;
+}
+.rounds-subtitle {
+  font-family: 'Fredoka', 'Inter', Arial, sans-serif;
+  font-size: 3.3rem;
+  font-style: italic;
+  color: #2D1D8C;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 0;
+}
+.battle {
+  font-weight: 700;
+  color: #6E2CF5;
+} 
